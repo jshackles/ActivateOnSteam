@@ -11,6 +11,7 @@
   ],
   "icons": {
     "16": "img/logo.png",
+    "32": "img/logo_32.png",
     "128": "img/logo_128.png"
   },
   "background": {"page": "background.html"},
@@ -19,5 +20,12 @@
         "matches": [ "<all_urls>" ],
         "js": ["content_script.js"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "img/logo.png",
+      "32": "img/logo_32.png",
+      "128": "img/logo_128.png"
+    }
+  }
 }
